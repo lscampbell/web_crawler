@@ -8,13 +8,13 @@ Features:
 
 #Running from terminal
 
-![Alt text](https://github.com/lscampbell/web_crawler/raw/master/SS/1111.png "")
+![Alt text](https://github.com/lscampbell/web_crawler/raw/master/1111.png "")
 
 #Accessing crawled links 
 
-![Alt text](https://github.com/lscampbell/web_crawler/raw/master/SS/2.png "")
+![Alt text](https://github.com/lscampbell/web_crawler/raw/master/2.png "")
 
-![Alt text](https://github.com/lscampbell/web_crawler/raw/master/SS/3.png "")
+![Alt text](https://github.com/lscampbell/web_crawler/raw/master/3.png "")
 
 #Installation
 
