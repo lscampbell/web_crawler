@@ -1,16 +1,16 @@
 <html>
 
-<body style="background-color:skyblue">
+<body style="background-color:black">
 <script src=/domain.js></script>
 
 <center>
-<font color=black size=6>Target : <script>document.write(domain)</script></font>
+<font color=white size=6>Target : <script>document.write(domain)</script></font>
 <br>
 ________________________________________________________________________________________________
 <br><br>
-<font color=black size=5>Ignored Extensions : <font color=yellow size=5><script>document.write(disallowed_ext)</script><br>
-<font color=black size=5>Static Extensions : <font color=yellow size=5><script>document.write(static_extensions)</script><br>
-<font color=black size=5>Scripts Extensions : <font color=yellow size=5><script>document.write(scripts_extensions)</script><br></font>
+<font color=white size=5>Ignored Extensions : <font color=yellow size=5><script>document.write(disallowed_ext)</script><br>
+<font color=white size=5>Static Extensions : <font color=yellow size=5><script>document.write(static_extensions)</script><br>
+<font color=white size=5>Scripts Extensions : <font color=yellow size=5><script>document.write(scripts_extensions)</script><br></font>
 ________________________________________________________________________________________________
 
 <br><br>
@@ -37,11 +37,11 @@ h=document.getElementById('h')
 o=document.getElementById('o')
 a=document.getElementById('a')
 
-j.style.color='black';
-s.style.color='black';
-h.style.color='black';
-o.style.color='black';
-a.style.color='black';
+j.style.color='white';
+s.style.color='white';
+h.style.color='white';
+o.style.color='white';
+a.style.color='white';
 
 eval(item+".style.color='red'")
 
@@ -97,14 +97,14 @@ function api(url){
 function arrange(data){
     
     for (var key in data) {
-        x.innerHTML=x.innerHTML+"<font size=5 color=black>"+key+"</font></br>"
+        x.innerHTML=x.innerHTML+"<font size=3 color=white>"+key+"</font></br>"
         var temp=data[key].toString().split(",")
         for(var key_ in temp)
         {	
         	if(temp[key_].length>1)
         	{
         		id=parseInt(key_)+1
-        		x.innerHTML=x.innerHTML+"<font size=1 color=yellow>>&emsp;<font size=4 color=green>"+temp[key_]+"</font></br>"
+        		x.innerHTML=x.innerHTML+"<font size=1 color=yellow>>&emsp;<font size=2 color=green>"+temp[key_]+"</font></br>"
         	}
         }
     }
